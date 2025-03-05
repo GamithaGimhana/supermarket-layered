@@ -2,16 +2,11 @@ package lk.ijse.gdse.supermarket.bo.custom.impl;
 
 import lk.ijse.gdse.supermarket.bo.custom.ItemBO;
 import lk.ijse.gdse.supermarket.dao.DAOFactory;
-import lk.ijse.gdse.supermarket.dao.SQLUtil;
 import lk.ijse.gdse.supermarket.dao.custom.ItemDAO;
-import lk.ijse.gdse.supermarket.dto.CustomerDTO;
 import lk.ijse.gdse.supermarket.dto.ItemDTO;
 import lk.ijse.gdse.supermarket.dto.OrderDetailsDTO;
-import lk.ijse.gdse.supermarket.entity.Customer;
-import lk.ijse.gdse.supermarket.entity.Item;
-import lk.ijse.gdse.supermarket.entity.OrderDetails;
+import lk.ijse.gdse.supermarket.entity_old.Item;
 
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 

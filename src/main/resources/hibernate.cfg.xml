@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url"/>
+    <property name="connection.driver_class"/>
+    <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/supermarketfx?createDatabaseIfNotExist=true</property> <!--database ek create krnw-->
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">Ijse@1234</property>
+
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property> <!--mem dammam mysql version ek prsnyak wenne na oni ekk support krnw-->
+    <property name="hibernate.show_sql">true</property> <!-- sql queries pennanw mek true klm-->
+
+    <!--schema generation stratagies-->
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <!--database ek hdl iwr wenkl mek create rkr thiygnn-->
+
+    <!--create - create schema-->
+    <!--update - update schema ( reflect table changes )-->
+    <!--create-drop - create and drop schema ( patan gaddi create krl iwr weddi drop krnw )-->
+    <!--validate - validate ( entity ek hariytm database eke hadild blnn inne)-->
+  </session-factory>
+</hibernate-configuration>

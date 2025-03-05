@@ -4,8 +4,6 @@ import lk.ijse.gdse.supermarket.bo.SuperBO;
 import lk.ijse.gdse.supermarket.dto.CustomerDTO;
 import lk.ijse.gdse.supermarket.dto.ItemDTO;
 import lk.ijse.gdse.supermarket.dto.OrderDTO;
-import lk.ijse.gdse.supermarket.dto.OrderDetailsDTO;
-import lk.ijse.gdse.supermarket.entity.OrderDetails;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

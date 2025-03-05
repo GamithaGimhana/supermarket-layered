@@ -17,12 +17,9 @@ import javafx.stage.Stage;
 import javafx.stage.Window;
 import lk.ijse.gdse.supermarket.bo.BOFactory;
 import lk.ijse.gdse.supermarket.bo.custom.impl.CustomerBOImpl;
-import lk.ijse.gdse.supermarket.dao.DAOFactory;
 import lk.ijse.gdse.supermarket.db.DBConnection;
 import lk.ijse.gdse.supermarket.dto.CustomerDTO;
-import lk.ijse.gdse.supermarket.entity.Customer;
 import lk.ijse.gdse.supermarket.view.tdm.CustomerTM;
-import lk.ijse.gdse.supermarket.dao.custom.impl.CustomerDAOImpl;
 
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.view.JasperViewer;

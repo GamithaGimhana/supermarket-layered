@@ -37,4 +37,25 @@ public class DAOFactory {
         }
 //        return new CustomerDAOImpl();
     }
+
+//    @SuppressWarnings("unchecked")
+//    // prevent compiler warning about unchecked type casting
+//    public <T extends SuperDAO>T getDAO(DAOType type) {
+//        switch (type) {
+//            case CUSTOMER:
+//                return (T) new CustomerDAOImpl();
+//                // methnin cast klama bo impl ekedi cast krnn oni naa
+//            case ITEM:
+//                return (T) new ItemDAOImpl();
+//            case ORDER:
+//                return (T) new OrderDAOImpl();
+//            case ORDERDETAIL:
+//                return (T) new OrderDetailsDAOImpl();
+//            case QUERY:
+////                return (T) new QueryDAOImpl();
+//            default:
+//                return null;
+//        }
+////        return new CustomerDAOImpl();
+//    }
 }

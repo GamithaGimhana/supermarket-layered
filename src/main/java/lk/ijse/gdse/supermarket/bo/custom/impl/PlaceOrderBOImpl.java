@@ -8,10 +8,9 @@ import lk.ijse.gdse.supermarket.dao.custom.OrderDAO;
 import lk.ijse.gdse.supermarket.dto.CustomerDTO;
 import lk.ijse.gdse.supermarket.dto.ItemDTO;
 import lk.ijse.gdse.supermarket.dto.OrderDTO;
-import lk.ijse.gdse.supermarket.entity.Customer;
-import lk.ijse.gdse.supermarket.entity.Item;
-import lk.ijse.gdse.supermarket.entity.Order;
-import lk.ijse.gdse.supermarket.entity.OrderDetails;
+import lk.ijse.gdse.supermarket.entity_old.Customer;
+import lk.ijse.gdse.supermarket.entity_old.Item;
+import lk.ijse.gdse.supermarket.entity_old.Order;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

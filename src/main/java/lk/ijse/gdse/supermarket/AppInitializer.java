@@ -8,14 +8,26 @@ import javafx.scene.control.ProgressIndicator; // Not used but can be useful for
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import lk.ijse.gdse.supermarket.config.FactoryConfiguration;
+import lk.ijse.gdse.supermarket.dao.custom.impl.CustomerDAOImpl;
+import lk.ijse.gdse.supermarket.entity.Customer;
+import org.hibernate.Session;
 
 import java.io.IOException;
+import java.util.Optional;
 
 public class AppInitializer extends Application {
 
 
     public static void main(String[] args) {
-        launch(); // Launch the JavaFX application
+//        launch(); // Launch the JavaFX application
+
+//        CustomerDAOImpl customerDAO = new CustomerDAOImpl();
+//        Optional<Customer> optionalCustomer = customerDAO.findByPK();
+//        if (optionalCustomer.isEmpty()) {
+//            Customer customer = optionalCustomer.get();
+//        }
+
     }
 
     @Override

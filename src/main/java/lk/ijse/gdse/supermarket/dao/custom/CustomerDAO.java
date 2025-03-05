@@ -1,10 +1,11 @@
 package lk.ijse.gdse.supermarket.dao.custom;
 
 
+import com.sun.mail.imap.protocol.ID;
 import lk.ijse.gdse.supermarket.dao.CrudDAO;
 import lk.ijse.gdse.supermarket.entity.Customer;
 
-public interface CustomerDAO extends CrudDAO<Customer> {
+public interface CustomerDAO extends CrudDAO<Customer, ID> {
 //    public String getNextCustomerId() throws SQLException, ClassNotFoundException;
 //    public boolean saveCustomer(CustomerDTO customerDTO) throws SQLException, ClassNotFoundException;
 //    public ArrayList<CustomerDTO> getAllCustomers() throws SQLException, ClassNotFoundException;

@@ -22,9 +22,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import lk.ijse.gdse.supermarket.bo.BOFactory;
 import lk.ijse.gdse.supermarket.bo.custom.impl.ItemBOImpl;
-import lk.ijse.gdse.supermarket.dao.custom.impl.ItemDAOImpl;
 import lk.ijse.gdse.supermarket.dto.ItemDTO;
-import lk.ijse.gdse.supermarket.entity.Item;
 import lk.ijse.gdse.supermarket.view.tdm.ItemTM;
 
 import java.net.URL;

@@ -2,9 +2,7 @@ package lk.ijse.gdse.supermarket.bo.custom;
 
 
 import lk.ijse.gdse.supermarket.bo.SuperBO;
-import lk.ijse.gdse.supermarket.dao.CrudDAO;
 import lk.ijse.gdse.supermarket.dto.CustomerDTO;
-import lk.ijse.gdse.supermarket.entity.Customer;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
